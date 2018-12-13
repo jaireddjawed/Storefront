@@ -6,3 +6,4 @@
   require_once('./Products.php');
   require_once('./Skus.php');
   require_once('./Users.php');
+  require_once('./CreateUsers.php');
