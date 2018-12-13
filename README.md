@@ -22,32 +22,40 @@ Concepts Used:
   Controllers - JS Controllers in assets/js directory, PHP Controllers Are in pages/ directory
 </li>
 
-2)
+<li>
 Passed cookie to PHP from Javascript in assets/js/view-product.js
 Handled Cookie in /pages/view-product/product-price.php
+</li>
 
-3)
+<li>
 Writing Images to uploads in pages/create-product/handle-create-product.php
+</li>
 
-4)
+<li>
 Databases SQL)
 SQL tables in /models directory
+</li>
 
-5) Form Validation and Regexes In /assets/js directory
-
+<li>
+Form Validation and Regexes In /assets/js directory
 Example File:
 /assets/js/handle-signup.js
+</li>
 
-6)
+<li>
 User Admin Login:
 Users are signed up in /pages/signup/handle-signup.php
+</li>
 
-7)
+<li>
 User Sessions using the login() function in includes/LoginFunctions.php
 Pages are Secured using the isLoggedIn() Function includes/LoginFunctions.php
+</li>
 
 Steps To Run
-- Create a .env file at the top directory and add the following
+<li>Create a .env file at the top directory and add the following</li>
+
+```
 
 PRODUCT_NAME=Base
 SERVER_NAME=YOUR_SERVER_NAME
@@ -58,9 +66,11 @@ DB_NAME=YOUR_DB_NAME
 STRIPE_KEY=pk_test_mv9NwCnCEwG5TEysHUXpkM9x
 STRIPE_SECRET=sk_test_0d3VhjbF7Ik745gmDcsAvdif
 
-- Run Models/index.php to create and seed the database
+```
 
-- Login
+<li>Run Models/index.php to create and seed the database</li>
+
+<li>Login</li>
 
 Administrator:
 
