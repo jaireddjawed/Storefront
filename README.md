@@ -75,7 +75,7 @@ STRIPE_SECRET=sk_test_0d3VhjbF7Ik745gmDcsAvdif
 
 ```
 
-
+<li>Paste Folder Contents into /htdocs</li>
 <li>Run models/index.php to create and seed the database</li>
 
 <li>Login</li>
