@@ -80,12 +80,24 @@ STRIPE_SECRET=sk_test_0d3VhjbF7Ik745gmDcsAvdif
 
 <li>Login</li>
 
-Administrator:
+Administrator: <br/>
 
 Email-Address: johndoeadmin@localhost.com
 Password: HelloWorld1
 
-Basic User:
+Basic User: <br/>
 
 Email-Address: johndoebasic@localhost.com
 Password: HelloWorld1
+
+<h3>When using cards</h3>
+
+<br/>
+Card Number: 5454 5454 5454 5454
+<br/>
+Exp Month: 11
+<br />
+Exp Year: 20
+<br/>
+Postal Code:
+12345
