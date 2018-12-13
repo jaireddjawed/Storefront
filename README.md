@@ -15,10 +15,12 @@ Project Layout:
 .env - environment variables
 
 Concepts Used:
-1) MVC
+<li>
+  MVC
   Models - SQL Table Models Folder
   Views - All Views are in the /pages directory
   Controllers - JS Controllers in assets/js directory, PHP Controllers Are in pages/ directory
+</li>
 
 2)
 Passed cookie to PHP from Javascript in assets/js/view-product.js
