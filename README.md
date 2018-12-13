@@ -5,6 +5,9 @@ Description: The Storefront is a PHP site made for administrators to create prod
 Github Link: https://github.com/jaireddjawed/Storefront
 
 Project Layout:
+
+```
+
 /assets - Public CSS and JS Files
 /components - Reusable HTML and PHP Files that are used for many pages
 /includes - PHP Files that have resuable code required on many pages, including login and Database connection
@@ -13,6 +16,9 @@ Project Layout:
 /uploads - Directory Where Images are uploaded
 /vendor - composer php files
 .env - environment variables
+
+
+```
 
 Concepts Used:
 <li>
@@ -55,6 +61,7 @@ Pages are Secured using the isLoggedIn() Function includes/LoginFunctions.php
 Steps To Run
 <li>Create a .env file at the top directory and add the following</li>
 
+
 ```
 
 PRODUCT_NAME=Base
@@ -67,6 +74,7 @@ STRIPE_KEY=pk_test_mv9NwCnCEwG5TEysHUXpkM9x
 STRIPE_SECRET=sk_test_0d3VhjbF7Ik745gmDcsAvdif
 
 ```
+
 
 <li>Run Models/index.php to create and seed the database</li>
 
