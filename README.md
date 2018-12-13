@@ -1,4 +1,4 @@
-#Storefront
+# Storefront
 
 Description: The Storefront is a PHP site made for administrators to create products so their customers can purchase them. The Credit Card Processing is done through Stripe.
 
