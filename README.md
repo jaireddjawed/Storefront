@@ -58,9 +58,9 @@ User Sessions using the login() function in includes/LoginFunctions.php
 Pages are Secured using the isLoggedIn() Function includes/LoginFunctions.php
 </li>
 
-Steps To Run
-<li>Create a .env file at the top directory and add the following</li>
+<h1>Steps To Run</h1>
 
+<li>Create a .env file at the top directory and add the following</li>
 
 ```
 
@@ -76,7 +76,7 @@ STRIPE_SECRET=sk_test_0d3VhjbF7Ik745gmDcsAvdif
 ```
 
 
-<li>Run Models/index.php to create and seed the database</li>
+<li>Run models/index.php to create and seed the database</li>
 
 <li>Login</li>
 
